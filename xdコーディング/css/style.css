@@ -1,0 +1,266 @@
+body {
+  font-family: Hiragino Kaku Gothic Pro;
+  color: #856c6c;
+  background-color: #fff;
+}
+
+/* header */
+.header {
+  width: 1340px;
+  max-width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 32px;
+  margin-bottom: 45px;
+  text-align: center;
+  color: #707070;
+}
+
+.logo {
+  display: flex;
+  margin-left: 30px;
+}
+
+.logo h1 {
+  line-height: 2.0;
+  width: 364px;
+  padding: 5px 40px 5px 32px;
+  border: solid 1px;
+  font-size: 35px;
+}
+
+.top_info ul {
+  display: flex;
+}
+
+.top_info li {
+  margin-right: 25px;
+}
+
+.top_info li a {
+  display: block;
+  margin-right: 25px;
+}
+
+.top_info a:hover {
+  border-bottom: solid 1px #707070;
+}
+
+/* ---ここからハンバーガー--- */
+.nav-unshown {
+  display: none;
+}
+
+.top_info_close {
+  display: none;
+}
+/* ---ここまでハンバーガー--- */
+
+/* concept */
+.concept {
+  background-image: url(../img/グループ\ 1.png);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 610px;
+  margin-bottom: 79px;
+  color: #fff;
+}
+
+.concept_customer {
+  padding-top: 186px;
+  padding-left: 600px;
+  padding-right: 100px;
+}
+
+.concept_customer h2 {
+  margin-bottom: 30px;
+  font-size: 67px;
+}
+
+.concept_customer_inner {
+  line-height: 1.5;
+  font-size: 21px;
+}
+
+/* work */
+.work {
+  width: 1200px;
+  max-width: 100%;
+  margin: 0 auto;
+  margin-bottom: 200px;
+}
+
+.work_list {
+  display: flex;
+  justify-content: center;
+}
+
+.work_list_inner {
+  margin-left: 43px;
+}
+
+.work_list_inner_text {
+  line-height: 1.5;
+  margin-top: 20px;
+  font-size: 15px;
+}
+
+/* develop */ 
+.develop {
+  width: 1315px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.develop_content {
+  margin: 0 43px 0 43px ;
+}
+
+.develop_content_inner {
+  display: flex;
+  margin: 0 0 150px;
+}
+
+.develop_content_inner:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+.develop_content_inner_txt {
+  padding: 0 40px;
+}
+
+.develop_content_inner_txt_title {
+  text-align: center;
+  margin: 10px 0 30px;
+  font-size: 26px;
+}
+
+.develop_content_inner p{
+  line-height: 2;
+  font-size: 14px;
+}
+
+/* news */
+.news {
+  width: 880px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 170px;
+}
+
+
+.news_inner {
+  width: 880px;
+  max-width: 100%;
+}
+
+.news_inner_title {
+  text-align: center;
+  margin-bottom: 66px;
+  font-weight: bold;
+  font-size: 20px;
+  color: #3b3b3b;
+}
+
+.news_inner span {
+  margin-right: 64px;
+  color: #9b9b9b;
+}
+
+.news_inner p {
+  border-bottom: solid 1px #dedede;
+  padding-top: 17px;
+  padding-bottom: 15px;
+  color: #3b3b3b;
+}
+
+/* banner */
+.banner {
+  width: 1330px;
+  max-width: 100%;
+  margin: 0 auto;
+  margin-bottom: 200px;
+}
+
+.banner_inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.banner_inner_text {
+  text-align: center;
+  line-height: 3.5;
+  margin-right: 65px;
+  width: 400px;
+  height: 122px;
+  border: solid 1px #707070;
+  color: #3B3B3B;
+  font-size: 35px;
+}
+
+.banner_inner_text:hover{
+  color: #fff;
+  background: #707070;
+}
+
+/* foot */
+.foot {
+  height: 282px;
+  background-color: #ebebeb;
+}
+
+.foot_inner {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 80px;
+}
+
+.foot_company {
+  margin-left: 255px;
+  color: #3b3b3b;
+}
+
+.foot_company_name {
+  margin-bottom: 27px;
+  font-size: 24px;
+} 
+
+.foot_company p {
+  line-height: 2;
+}
+
+.foot_info {
+  display: flex;
+  align-items: center;
+  margin-right: 265px;
+}
+
+.foot_info ul {
+  display: flex;
+  font-size: 0.93em; 
+  color: #707070;
+}
+
+.foot_info li {
+  margin-right: 20px;
+}
+
+.foot_info a:hover {
+  border-bottom: solid 1px #707070;
+}
+
+/* footer */
+footer {
+  text-align: center;
+  line-height: 5;
+  height: 79px;
+  background-color: #6a6a6a;
+}
+
+footer p{
+  color: #fff;
+}
